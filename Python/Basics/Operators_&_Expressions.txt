@@ -1,2 +1,73 @@
 Imp stuff about Operators and Expressions in python
 
+Operators are usually symbols or sombination of symbols that allo you to perform a specific action.
+They are in-built in Python as a part of syntax.
+Allow you to manipulate data, perform calculations, compare values, run Boolean tests, assign values.
+Diff types like Assignment, Arithemetic, Comparison, Boolean, Identity, Membership, Concatentaion, Bitwise
+
+Expressions are simple statements that produces and returns a value.
+eg. 7+5, 42/2, 5==5,print("hello")
+
+Assignment Statements are not considered as expressions because they dont return any value
+
+Assignment Operator(=)
+Allows you to assign values to variables.
+eg. number=42
+
+Artimetic Operator and Expressions(+,-,*,/,%,//,**)
+Allows you to perform Artimetic operations on numeric values
+eg. 7+5,6-4,5//2
+% - modulus fucntion - Gives remainder
+// - Floor Division - Gives quotinet
+
+Comparison Operator and Expressions(==,!=,<,>)
+Allows you to compare values, datatypes, objects
+Returns True if comparison is correct,else False
+eg. 2=="2", 10>30,34==23,"A"=="a", [2,3]==[2,3]
+
+Boolean Operator and Expressions (AND,OR,NOT)
+Create Compound Conditions
+eg. 5<7 and 3==3
+For other datatypes like String, Tuples, Lists if empty it is condsidered False, else True
+
+Conditional Expression or Ternary Operator
+variable- expression1 if condition else expression2
+eg. open-"11" if day=="sun" else "9"
+
+Identity Operator and Expression(is, is not)
+Checks if two operands have the same identity or the same objects
+eg. a=b
+a is b will give True
+a=1,b=1 a is b will give False because theya re linked to the same objects
+
+Membership Operator and Expression(in, not in)
+Check if value is present in a collection
+eg. 5 in [5,3,4,9]
+
+Concatentaion and Repetition Operator(+,*)
+These operators act different when you use them with strings, lists, Tuples
+They act as Concatentaion and Repetition operators
+eg "H" + "W" = "HW", "H"*3= "HHH"
+
+Walrus Operator and Assignment(:=)
+variable := expression, will assign the value to the variable and evaluate the condition
+eg (n := len(string))<8 will assign n the value length and then check if it is greater than 8
+
+Bitwise Operator and Expression (&,|,~)
+They work on bits of the data
+
+Operator Precedence
+List goes from Highest to Lowest
+**
++x,-x,~x
+*,/,//,%
++,-
+<<,>>
+&,|,^,|
+==,!=,<=,>=,is,is not,in, not in
+not,and,or
+:=
+
+Augmented Assignemnt Operator(+=,-=,*=,/=)
+It evaluates the expression and assigns the value back to the variable
+eg. total+=5 adds 5 to total and assigns it back
