@@ -1,0 +1,29 @@
+Variables
+Variables are names attached to a particular object
+You assign a value using the (=) operator
+eg. n=300 - n is assigned the value 300
+
+You can also perform chained Assignment
+eg. a=b=c=10    
+
+Object Reference
+A python variable is a symbolic name that is a reference or pointer to an object. 
+Once the oject is assigned a variable you can call it using its name but the value still exists in the object itself. 
+eg. n=300, n points to object 300
+m=n, both m and n now points to object 300
+
+Object Identity
+Every object that is created has a number that uniquely identifies it.
+No 2 object will ever have the same id
+Python function id() gives the current identifier of the variable
+
+Variable names
+Can be any length
+Consist of uppercase and lowercase letters, digits, underscore
+First character cannot be a digit
+Using snake case (_ in between of words eg. new_team) is advised by new conventions
+
+Reserved Keywords
+You cannot have a variable name the same as a keyword
+eg. False,None, True, and, or, not, break, continue, or, while etc.
+
